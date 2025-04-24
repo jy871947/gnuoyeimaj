@@ -1,0 +1,41 @@
+body {
+    background-color: black;
+}
+
+.ProjectNAV {
+    padding-left: 2%;
+    margin-top: 50px;
+    display: inline-flex;
+    flex-direction: row;
+    margin-right: 150px;
+}
+
+.row-1 {
+    background-color: rgb(0, 0, 0);
+
+    width: auto;
+    display: block;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ble {
+    display: block;
+    max-width: 100%;
+    margin-bottom: 5px;
+}
+
+.text {
+    color: white;
+    font-family: No;
+    margin-top: 0;
+    margin-left: 100px;
+    margin-right: 0;
+}
+
+.textinf {
+    color: white;
+    font-family: No;
+    margin-left: 100px;
+}

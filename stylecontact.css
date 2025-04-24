@@ -1,0 +1,45 @@
+#pol {
+    display: block;
+    max-width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -100;
+    margin-bottom: 0;
+
+}
+
+.film-bg-container {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+
+
+}
+
+.film-bg-container video {
+    z-index: -1;
+    position: absolute;
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.finaltext {
+    color: rgb(255, 255, 255);
+    font-family: No;
+    text-align: center;
+    margin-top: 100px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+
+}

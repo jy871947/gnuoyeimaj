@@ -1,0 +1,79 @@
+@font-face {
+    font-family: No;
+    src: url(/fonts/Doto-ExtraLight.ttf);
+}
+
+.film-bg-container {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+
+
+}
+
+
+.film-bg-container video {
+    z-index: -1;
+    position: absolute;
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+footer {
+    text-align: center;
+
+
+}
+
+
+
+
+.ble {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-width: 100%;
+    opacity: 90%;
+}
+
+.textinf0 {
+
+    color: rgb(211, 211, 211);
+    font-family: No;
+    max-width: 800px;
+    margin-inline: auto;
+    margin-top: 30px;
+
+
+}
+
+.textinf1 {
+
+    color: rgb(211, 211, 211);
+    font-family: No;
+    padding: 0;
+    margin: 0;
+    max-width: 800px;
+    margin-inline: auto;
+
+}
+
+.textinf2 {
+
+    color: rgb(211, 211, 211);
+    font-family: No;
+    padding: 0;
+    margin: 0;
+    max-width: 800px;
+    margin-inline: auto;
+    margin-top: 10px;
+}

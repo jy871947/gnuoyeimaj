@@ -1,0 +1,69 @@
+body {
+    background-color: black;
+}
+
+.ProjectNAV {
+    float: left;
+    padding-left: 2%;
+    margin-top: 50px;
+    display: inline-flex;
+    flex-direction: row;
+    margin-right: 150px;
+}
+
+.row-1 {
+    background-color: rgb(0, 0, 0);
+
+    width: auto;
+    display: block;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ble {
+    display: block;
+    max-width: 100%;
+    margin-bottom: 5px;
+}
+
+
+.text {
+    color: white;
+    font-family: No;
+    margin-top: 0;
+
+    margin-right: 0;
+
+}
+
+.textinf {
+    color: white;
+    font-family: No;
+
+
+}
+
+
+
+.film-bg-container {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+
+
+}
+
+
+.film-bg-container video {
+    z-index: -1;
+    position: absolute;
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
